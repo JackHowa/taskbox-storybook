@@ -13,7 +13,8 @@ export default {
 
 // excluded even though exported
 // callback that appears in the actions panel if clicked
-// Actions help you verify interactions when building UI components in isolation. Oftentimes you won't have access to the functions and state you have in context of the app. Use action() to stub them in.
+// Actions help you verify interactions when building UI
+// components in isolation. Oftentimes you won't have access to the functions and state you have in context of the app. Use action() to stub them in.
 export const actionsData = {
   onPinTask: action("onPinTask"),
   onArchiveTask: action("onArchiveTask"),
